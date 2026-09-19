@@ -1,4 +1,3 @@
-# Get all cybersecurity news in terminal in one page from around 100 blog news feed from interview prep to full deep news every minute in your local machine 
 
 # 🚀 Ghostty HUD: Automated Cybersecurity & Dev Threat Intel Center
 
