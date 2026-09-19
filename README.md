@@ -4,10 +4,6 @@
 
 A highly optimized, ultra-fast terminal HUD environment engineered for real-time Cybersecurity Threat Intelligence tracking and Python/C++ development parsing. This setup structures **Newsboat** into a hardware-accelerated, multi-threaded intelligence aggregator running inside a custom 60% transparent centered overlay in **Ghostty**.
 
-![Environment](https://shields.io)
-![Shell](https://shields.io)
-![IDE](https://shields.io)
-![Editor](https://shields.io)
 
 ---
 
