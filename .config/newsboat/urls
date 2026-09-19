@@ -1,0 +1,120 @@
+# --- Cyber Podcasts ---  
+# When viewing a podcast episode in Newsboat, press e to queue the audio enclosure.
+# In another terminal tab, type   podboat
+# You will see your download queue. Hit d to download, or configure it to play immediately with mpv
+
+https://risky.biz/feeds/risky-business/                                podcast cybersec audio
+https://feeds.megaphone.fm/darknetdiaries   podcast cybersec audio
+
+# --- Career & Interview Preparation ---
+https://www.askamanager.org/feed                                       career interview behavioral
+https://blog.bytebytego.com/feed                                       career interview tech systemdesign
+https://blog.pragmaticengineer.com/rss/                                career interview tech
+https://www.freecodecamp.org/news/rss/                                 career interview tech coding
+https://www.hackerrank.com/blog/feed/                                  career interview tech coding
+https://blog.interviewing.io/feed/                                     career interview tech
+https://www.reddit.com/r/cscareerquestions/.rss                        career interview tech reddit
+https://www.reddit.com/r/interviews/.rss                               career interview reddit
+
+# --- InfoSec & IT Career Feeds ---
+https://www.reddit.com/r/SecurityCareerAdvice/.rss                     career interview cybersec reddit
+https://www.reddit.com/r/ITCareerQuestions/.rss                        career interview tech reddit
+https://danielmiessler.com/feed/                                       career cybersec tech
+https://www.blackhillsinfosec.com/feed/                                cybersec career threatintel
+
+# YOUTUBE VIDEO AND VIDEO RSS EXAMPLE
+# https://www.youtube.com/feeds/videos.xml?channel_id=<CHANNEL_ID>
+#
+# # --- Video / Vlog Feeds ---
+# Simply Cyber (Daily threat briefings, resume reviews, SOC interview prep)
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnELqTWS2zJitS16PuW_GMA  vlog cybersec career youtube
+
+# NeetCode (Coding interview problem breakdowns & patterns)
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_mYaQAE6-71MREQNyRrR2g  vlog coding interview youtube
+
+
+"query:🎓 Interview & Career:tag =~ \"career\" or tag =~ \"interview\""
+
+
+# ========================================================
+# Newsboat Elite Master Threat Intel Feeds Index
+# ========================================================
+
+# --- Threat Intelligence & Research Labs ---
+https://blog.talosintelligence.com/rss/                                cybersec threatintel cisco
+https://unit42.paloaltonetworks.com/feed/                              cybersec threatintel unit42
+https://www.crowdstrike.com/en-us/blog/feed                            cybersec threatintel crowdstrike
+https://blog.google/threat-analysis-group/rss/                         cybersec threatintel google tag
+https://cloud.google.com/blog/topics/threat-intelligence/rss/          cybersec threatintel google cloud
+https://research.checkpoint.com/feed/                                  cybersec threatintel
+https://www.sentinelone.com/labs/feed/                                 cybersec threatintel sentinelone
+https://securelist.com/feed/                                           cybersec threatintel kaspersky
+https://www.microsoft.com/en-us/security/blog/feed/                    cybersec threatintel microsoft
+https://news.sophos.com/en-us/category/threat-research/feed/           cybersec threatintel sophos
+https://www.volexity.com/feed/                                         cybersec threatintel incidentresponse
+https://www.welivesecurity.com/en/rss/feed/                            cybersec threatintel eset
+https://www.bitdefender.com/nuxt/api/en-us/rss/labs/                   cybersec threatintel
+https://asec.ahnlab.com/en/feed/                                       cybersec threatintel
+https://www.cybereason.com/blog/rss.xml                                cybersec threatintel
+https://cyble.com/feed/                                                cybersec threatintel
+https://blog.eclecticiq.com/rss.xml                                    cybersec threatintel
+https://gosecure.ai/feed/                                              cybersec threatintel
+https://www.group-ib.com/feed/blogfeed/                                cybersec threatintel
+https://threatresearch.ext.hp.com/feed/                                cybersec threatintel endpoint
+https://blogs.infoblox.com/category/threat-intelligence/feed/          cybersec threatintel network
+https://lab52.io/blog/feed/                                            cybersec threatintel
+https://levelblue.com/site/blog-all-rss                                cybersec threatintel
+https://www.recordedfuture.com/feed                                    cybersec threatintel
+https://rewterz.com/feed                                               cybersec threatintel
+https://www.securityjoes.com/blog-feed.xml                             cybersec threatintel
+https://blog.sekoia.io/feed/                                           cybersec threatintel
+https://www.silentpush.com/feed/                                       cybersec threatintel
+https://socradar.io/feed/                                              cybersec threatintel
+https://threatmon.io/feed/                                             cybersec threatintel
+https://www.duskrise.com/feed/                                         cybersec threatintel
+
+# --- Cybersecurity News & Magazines ---
+https://www.bleepingcomputer.com/feed/                                 cybersec news
+https://krebsonsecurity.com/feed/                                      cybersec news
+https://www.darkreading.com/rss.xml                                    cybersec news
+https://feeds.feedburner.com/TheHackersNews                            cybersec news
+https://www.helpnetsecurity.com/view/news/feed/                        cybersec news
+https://securityaffairs.com/feed                                       cybersec news
+https://cybersecuritynews.com/feed/                                    cybersec news
+https://gbhackers.com/feed/                                            cybersec news
+https://www.theregister.com/security/headlines.rss                     cybersec news tech
+
+# --- Malware, Forensics & Phishing (DFIR) ---
+https://thedfirreport.com/feed/                                        cybersec dfir forensics
+https://www.malwarebytes.com/blog/feed/index.xml                       cybersec malware
+https://www.mcafee.com/blogs/other-blogs/mcafee-labs/feed/             cybersec malware
+https://intezer.com/feed/                                              cybersec malware
+https://cofense.com/feed                                               cybersec phishing
+https://www.phishlabs.com/feed                                         cybersec phishing
+
+# --- Vulnerability, Cloud & Infrastructure ---
+https://blog.qualys.com/feed                                           cybersec vulndetect
+https://www.rapid7.com/rss.xml                                         cybersec vulndetect
+https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/rss.xml cybersec pentest
+https://www.wiz.io/api/feed/cloud-threat-landscape/rss.xml             cybersec cloud threatintel
+https://permiso.io/blog/rss.xml                                        cybersec cloud
+https://www.zscaler.com/blogs/feeds/security-research                  cybersec cloud threatintel
+https://www.darktrace.com/blog/rss.xml                                 cybersec enterprise
+https://www.forescout.com/feed/                                        cybersec iot
+https://www.morphisec.com/feed/?post_type=blog                         cybersec endpoint
+https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml                      cybersec enterprise symantec
+http://feeds.trendmicro.com/TrendMicroSimplySecurity                   cybersec enterprise
+https://moonlock.com/feed                                              cybersec mac
+https://www.intego.com/mac-security-blog/feed/                         cybersec mac
+
+# --- Developer Streams ---
+https://blog.python.org/feeds/posts/default                            coding python news
+https://www.reddit.com/r/cpp/.rss                                      coding cpp tech
+https://news.ycombinator.com/rss                                       tech news
+
+# ========================================================
+# Dynamic Smart Meta-Query Folders
+# ========================================================
+"query:💻 Dev Alerts:title =~ \"python\" or title =~ \"c\\+\\\+\""
+"query:🚨 Cyber Security Alerts:tag =~ \"cybersec\""
+"query:🔥 CRITICAL EXPLOITS:(title =~ \"RCE\" or title =~ \"zero-day\" or title =~ \"0-day\" or title =~ \"Exploit\" or title =~ \"Vulnerability\" or title =~ \"Flaw\" or title =~ \"Bounty\" or title =~ \"Infection\" or title =~ \"Backdoor\" or title =~ \"Spyware\" or title =~ \"Campaign\") and unread = \"yes\""

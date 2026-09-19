@@ -1,0 +1,115 @@
+# ========================================================
+# Newsboat Global Configuration File
+# ========================================================
+
+# 1. Safely unbind the default letter actions to prevent conflicts
+unbind-key i
+unbind-key o
+unbind-key k
+unbind-key q
+unbind-key b
+
+# 2. Map Your Custom Movements (Arrow keys remain completely functional)
+bind-key k down
+bind-key i up
+bind-key o open
+bind-key q quit
+bind-key O open-in-browser
+
+# 3. Dedicated Browser Mapping (Fixes Opening Pages)
+bind-key o open-in-browser
+browser "open %u"
+
+# --- Automated Bookmarking ---
+# Instantly save the title and URL to a study guide without leaving Newsboat
+bookmark-cmd "echo '- [%t](%u)' >> ~/Documents/Interview_Prep.md"
+bookmark-autopilot yes
+
+# Read Paywalled or "Summary-Only" Feeds . this helps to reda the full vlog instead of open in browser which is Paywalled  
+# Press ',' then 'f' to fetch and read the FULL text of the website in your terminal
+macro f set browser "lynx -dump %u | less" ; open-in-browser ; set browser "open %u"
+
+# 4. Video MPV Streaming Macro (Press , then v to stream)
+# 1. Browser & Media Playback
+# browser "open %u"
+macro v set browser "mpv %u" ; open-in-browser ; set browser "open %u"
+
+# 5. Tokyo Night Harmonized Theme — MAXIMUM READABILITY
+color background          color15   color235
+color listnormal          color15   color235
+color listnormal_unread   color14   color235   bold
+color listfocus           color232  color4
+color listfocus_unread    color232  color14    bold
+color info                color14   color236   bold
+color article             color15   color235
+
+
+
+
+# 4. Global Performance & Automated Background Reloads
+auto-reload yes
+reload-time 20
+reload-threads 10
+
+
+refresh-on-startup yes
+suppress-first-reload no
+
+# Highlight Critical Interview & Foundational Technical Concepts
+highlight articlelist "CIA Triad" green default bold
+highlight articlelist "Handshake" green default bold
+highlight articlelist "Zero Trust" cyan default bold  
+highlight articlelist "Mitigation" cyan default bold
+highlight articlelist "Incident" yellow default bold
+
+user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+# --- Readability & Clean Background ---
+text-width 80
+
+# Fix character encoding (â) so apostrophes and quotes render correctly
+html-renderer "lynx -dump -nolist -width=80 -assume_charset=utf-8 -display_charset=utf-8 -stdin"
+
+# Force Newsboat to be completely transparent and use your Mac's native background
+#
+# --- 5. Clean Theme (Transparent / Matches Terminal) ---
+color background          default   default
+color article             default   default
+color listnormal          default   default
+color listnormal_unread   color14   default   bold
+color listfocus           color232  color4    bold
+color listfocus_unread    color232  color14   bold
+color info                color14   default   bold
+
+# --- 6. Technical Concept Highlights ---
+highlight articlelist "CIA Triad"  green  default bold
+highlight articlelist "Handshake"  green  default bold
+highlight articlelist "Zero Trust" cyan   default bold  
+highlight articlelist "Mitigation" cyan   default bold
+highlight articlelist "Incident"   yellow default bold
+
+
+
+
+
+
+# ===================================
+
+# --- macOS Desktop Notifications ---
+notify-program "~/.config/newsboat/notify.sh"
+notify-always no
+notify-screen no
+notify-xterm no
+notify-beep no
+
+
+# ========================================================
+# Native macOS Desktop Notification Integration
+# ========================================================
+
+# Automatically executes your bash script whenever a background reload finds a new article
+notify-program "~/.config/newsboat/notify.sh"
+
+# Play a subtle system audio alert alongside the notification block
+notify-always yes
+
