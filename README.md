@@ -2,6 +2,8 @@
 
 # 🚀 Ghostty HUD: Automated Cybersecurity & Dev Threat Intel Center
 
+## Get all cybersecurity news in terminal in one page from around 100 blog news feed from interview prep to full deep news every minute in your local machine 
+
 A highly optimized, ultra-fast terminal HUD environment engineered for real-time Cybersecurity Threat Intelligence tracking and Python/C++ development parsing. This setup structures **Newsboat** into a hardware-accelerated, multi-threaded intelligence aggregator running inside a custom 60% transparent centered overlay in **Ghostty**.
 
 
