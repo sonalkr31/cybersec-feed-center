@@ -52,7 +52,7 @@ brew install --cask font-jetbrains-mono-nerd-font
 Clone this repository into your local system directory framework, and link the configuration pathways to your active system workspace:
 
 ```bash
-git clone https://github.com
+git clone https://github.com](https://github.com/sonalkr31/cybersec-feed-center.git
 cd cybersec-feed-center
 
 # Create standard XDG config pathways
@@ -143,7 +143,7 @@ choco install newsboat mpv jetbrainsmononerdfont -y
 #### 3. Clone the Repository & Structure Windows Paths
 ```powershell
 # Clone your project from GitHub
-git clone https://github.com
+git clone https://github.com](https://github.com/sonalkr31/cybersec-feed-center.git
 cd cybersec-feed-center
 
 # Establish the native Windows configuration directories
@@ -212,7 +212,7 @@ fc-cache -fv
 
 #### 2. Clone the Repository & Structure Linux XDG Paths
 ```bash
-git clone https://github.com
+git clone https://github.com](https://github.com/sonalkr31/cybersec-feed-center.git
 cd cybersec-feed-center
 
 # Establish standard XDG directory structures and move files into position
